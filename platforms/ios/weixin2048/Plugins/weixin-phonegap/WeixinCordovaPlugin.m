@@ -4,9 +4,15 @@
 #import <Cordova/CDV.h>
 
 @implementation WeixinCordovaPlugin
--(void)hello:(CDVInvokedUrlCommand*)command {
-    CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
-    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+-(void)registerApp:(CDVInvokedUrlCommand*)command {
+    [self.commandDelegate runInBackground:^{
+        NSString* appid = [command.arguments objectAtIndex:0];
+        if (appid != nil) {
+            [WXApi registerApp:appid];
+        }
+        CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
+        [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+    }];
 }
 
 @end

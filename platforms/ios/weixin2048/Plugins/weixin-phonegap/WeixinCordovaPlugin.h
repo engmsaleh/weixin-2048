@@ -2,6 +2,6 @@
 
 @interface WeixinCordovaPlugin : CDVPlugin
 
--(void)hello:(CDVInvokedUrlCommand*)command;
+//@property (nonatomic, assign) WXApi *wx;
 
 @end

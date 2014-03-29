@@ -1,17 +1,23 @@
-// var exec = require('cordova/exec');
-
 cordova.define("cordova/plugin/weixin-phonegap", function(require, exports, module) {
 
   weixin = {};
 
+  weixin.registered = false;
 
-  weixin.hello = function() {
-    cordova.exec(null, null, "WeixinCordovaPlugin", "hello", []);
-    console.log("VAS TE FAIRE ENCULER");
+  weixin.registerApp = function(appid) {
+    cordova.exec(function() {
+      
+      weixin.registered = true;
+
+      document.getElementById('registered').innerHTML = weixin.registered;
+
+    }, function() {
+      weixin.registered = false;
+
+      document.getElementById('registered').innerHTML = weixin.registered;
+
+    }, "WeixinCordovaPlugin", "registerApp", [appid]);
   }
 
   module.exports = weixin;
 });
-// exports.registerApp = function(arg0, success, error) {
-//     exec(success, error, "weixin-phonegap", "coolMethod", [arg0]);
-// };

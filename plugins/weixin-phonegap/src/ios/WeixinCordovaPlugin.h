@@ -2,6 +2,4 @@
 
 @interface WeixinCordovaPlugin : CDVPlugin
 
--(void)hello:(CDVInvokedUrlCommand*)command;
-
 @end
