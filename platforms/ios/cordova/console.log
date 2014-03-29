@@ -1,0 +1,48 @@
+2014-03-29 21:53:58.212 weixin2048[39948:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-29 21:53:58.382 weixin2048[39948:70b] Resetting plugins due to page load.
+2014-03-29 21:54:00.807 weixin2048[39948:70b] Finished load of: file:///Users/julienbordellier/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1F15606B-88D8-40C6-BD53-E6FFBAC85AE5/weixin2048.app/www/index.html
+2014-03-29 21:54:35.271 weixin2048[40190:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-29 21:54:35.440 weixin2048[40190:70b] Resetting plugins due to page load.
+2014-03-29 21:54:48.938 weixin2048[40190:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-03-29 21:54:48.958 weixin2048[40190:70b] Finished load of: file:///Users/julienbordellier/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1F15606B-88D8-40C6-BD53-E6FFBAC85AE5/weixin2048.app/www/index.html
+2014-03-29 21:55:11.826 weixin2048[40433:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-29 21:55:12.021 weixin2048[40433:70b] Resetting plugins due to page load.
+2014-03-29 21:55:12.155 weixin2048[40433:70b] Finished load of: file:///Users/julienbordellier/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1F15606B-88D8-40C6-BD53-E6FFBAC85AE5/weixin2048.app/www/index.html
+2014-03-29 22:00:33.926 weixin2048[41180:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-29 22:00:34.093 weixin2048[41180:70b] Resetting plugins due to page load.
+2014-03-29 22:00:34.207 weixin2048[41180:70b] Finished load of: file:///Users/julienbordellier/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1F15606B-88D8-40C6-BD53-E6FFBAC85AE5/weixin2048.app/www/index.html
+2014-03-29 22:06:06.339 weixin2048[41675:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-29 22:06:06.513 weixin2048[41675:70b] Resetting plugins due to page load.
+2014-03-29 22:06:22.438 weixin2048[41675:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-03-29 22:06:22.458 weixin2048[41675:70b] Finished load of: file:///Users/julienbordellier/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1F15606B-88D8-40C6-BD53-E6FFBAC85AE5/weixin2048.app/www/index.html
+2014-03-29 22:06:54.700 weixin2048[41900:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-29 22:06:54.783 weixin2048[41900:70b] Resetting plugins due to page load.
+Terminating in response to SpringBoard's termination.
+2014-03-29 22:07:43.739 weixin2048[42142:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-29 22:07:43.902 weixin2048[42142:70b] Resetting plugins due to page load.
+2014-03-29 22:07:51.965 weixin2048[42142:70b] Finished load of: file:///Users/julienbordellier/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1F15606B-88D8-40C6-BD53-E6FFBAC85AE5/weixin2048.app/www/index.html
+2014-03-29 22:08:59.026 weixin2048[42401:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-29 22:08:59.187 weixin2048[42401:70b] Resetting plugins due to page load.
+2014-03-29 22:09:00.915 weixin2048[42401:70b] Finished load of: file:///Users/julienbordellier/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1F15606B-88D8-40C6-BD53-E6FFBAC85AE5/weixin2048.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2014-03-29 22:14:49.003 weixin2048[43523:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-29 22:14:49.168 weixin2048[43523:70b] Resetting plugins due to page load.
+2014-03-29 22:14:49.219 weixin2048[43523:3f03] ERROR whitelist rejection: url='http://debug.phonegap.com/target/target-script-min.js#while42bj'
+2014-03-29 22:14:49.222 weixin2048[43523:3f03] ERROR whitelist rejection: url='http://debug.phonegap.com/target/target-script-min.js#while42bj'
+2014-03-29 22:14:49.224 weixin2048[43523:3f03] ERROR whitelist rejection: url='http://debug.phonegap.com/target/target-script-min.js#while42bj'
+2014-03-29 22:15:07.318 weixin2048[43523:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-03-29 22:15:07.339 weixin2048[43523:70b] Finished load of: file:///Users/julienbordellier/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1F15606B-88D8-40C6-BD53-E6FFBAC85AE5/weixin2048.app/www/index.html
+2014-03-29 22:15:45.363 weixin2048[43787:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-29 22:15:45.539 weixin2048[43787:70b] Resetting plugins due to page load.
+2014-03-29 22:15:45.579 weixin2048[43787:3f03] ERROR whitelist rejection: url='http://debug.phonegap.com/target/target-script-min.js#while42bj'
+2014-03-29 22:15:45.580 weixin2048[43787:3f03] ERROR whitelist rejection: url='http://debug.phonegap.com/target/target-script-min.js#while42bj'
+2014-03-29 22:15:45.580 weixin2048[43787:3f03] ERROR whitelist rejection: url='http://debug.phonegap.com/target/target-script-min.js#while42bj'
+2014-03-29 22:15:47.678 weixin2048[43787:70b] Finished load of: file:///Users/julienbordellier/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1F15606B-88D8-40C6-BD53-E6FFBAC85AE5/weixin2048.app/www/index.html
+2014-03-29 22:36:47.725 weixin2048[45220:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-29 22:36:47.903 weixin2048[45220:70b] Resetting plugins due to page load.
+2014-03-29 22:37:31.867 weixin2048[45220:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-03-29 22:37:31.918 weixin2048[45220:70b] Finished load of: file:///Users/julienbordellier/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1F15606B-88D8-40C6-BD53-E6FFBAC85AE5/weixin2048.app/www/index.html
+2014-03-29 23:08:00.921 weixin2048[47724:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-29 23:08:01.121 weixin2048[47724:70b] Resetting plugins due to page load.
+2014-03-29 23:08:11.300 weixin2048[47724:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-03-29 23:08:11.347 weixin2048[47724:70b] Finished load of: file:///Users/julienbordellier/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1F15606B-88D8-40C6-BD53-E6FFBAC85AE5/weixin2048.app/www/index.html

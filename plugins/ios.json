@@ -6,12 +6,16 @@
     "config_munge": {
         "config.xml": {
             "/*": {
-                "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>": 1
+                "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>": 1,
+                "<feature name=\"WeixinCordovaPlugin\"><param name=\"ios-package\" value=\"WeixinCordovaPlugin\" /></feature>": 1
             }
         }
     },
     "installed_plugins": {
         "org.apache.cordova.console": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "weixin-phonegap": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     },
