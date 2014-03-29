@@ -81,7 +81,7 @@
   <script src="js/game_manager.js"></script>
   <script src="js/application.js"></script>
     <script type="text/javascript" src="phonegap.js"></script>
-    <script type="text/javascript" src="js/weixin-phonegap.js"></script>
+    <!--<script type="text/javascript" src="js/weixin-phonegap.js"></script>-->
     <script type="text/javascript">
     var app = {
     // Application Constructor
@@ -101,10 +101,11 @@
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        if (window.cordova.logger) {
+            window.cordova.logger.__onDeviceReady();
+        }
         console.log("INIT CONNARD");
-        var coucou = cordova.require("cordova/plugin/weixin-phonegap");
         console.log("INIT CONNARD");
-        coucou.hello();
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -119,7 +120,10 @@
     }
 };
         app.initialize();
-        console.log("INIT CONNARD");
+        alert("stop");
+        var coucou = cordova.require("cordova/plugin/weixin-phonegap");
+        coucou.hello();
+       console.log("INIT CONNARD");
     </script>
 </body>
 </html>
