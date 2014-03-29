@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="fr.while42" version="1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>weixin-phonegap</name>
+    <js-module name="weixin-phonegap" src="www/weixin-phonegap.js">
+        <clobbers target="cordova.plugins.weixin-phonegap" />
+    </js-module>
+
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="WeixinCordovaPlugin">
+                <param name="ios-package" value="WeixinCordovaPlugin" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/WeixinCordovaPlugin.h" />
+        <source-file src="src/ios/WeixinCordovaPlugin.m" />
+
+        <header-file src="src/ios/WXApi.h" />
+        <header-file src="src/ios/WXApiObject.h" />
+        <source-file src="src/ios/libWeChatSDK.a" framework="true" />
+    </platform>
+
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="WeixinCordovaPlugin">
+                <param name="android-package" value="fr.while42.cordova.plugin.WeixinCordovaPlugin" />
+            </feature>
+        </config-file>
+
+
+        <source-file src="src/android/libammsdk.jar" target-dir="libs" framework="true" />
+        <source-file src="src/android/WeixinCordovaPlugin.java" target-dir="src/com/weixin-phonegap/cordova" />
+
+<!--         <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+            <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+            <uses-permission android:name="android.permission.VIBRATE"/>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <receiver android:name= "com.plotprojects.retail.android.PlotBootReceiver">
+                <intent-filter>
+                    <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                    <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                    <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+                    <category android:name="android.intent.category.HOME" />
+                </intent-filter>
+            </receiver>
+
+            <receiver android:exported="false" android:name="com.plotprojects.cordova.PlotCordovaNotificationOpenReceiver">
+                <intent-filter>
+                    <action android:name="$PACKAGE_NAME.plot.OpenNotification" />
+                </intent-filter>
+            </receiver>
+
+            <service android:name="com.plotprojects.retail.android.PlotBackgroundService"
+                     android:process=":PlotProcess">
+                <meta-data android:name="debug" android:value="false" />
+            </service>
+        </config-file> -->
+    </platform>
+
+</plugin>
