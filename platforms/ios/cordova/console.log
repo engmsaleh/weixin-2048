@@ -15,3 +15,8 @@ Terminating in response to SpringBoard's termination.
 2014-03-29 17:08:24.334 HelloWorld[31113:70b] Multi-tasking -> Device: YES, App: YES
 2014-03-29 17:08:24.514 HelloWorld[31113:70b] Resetting plugins due to page load.
 2014-03-29 17:08:24.617 HelloWorld[31113:70b] Finished load of: file:///Users/julienbordellier/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/D4DCA283-6234-4CD1-9A70-A5E1935DEA70/HelloWorld.app/www/index.html
+2014-03-29 18:56:51.182 2048[32890:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-29 18:56:51.200 2048[32890:70b] Fix applied for database locations?: YES
+2014-03-29 18:56:51.523 2048[32890:70b] Resetting plugins due to page load.
+2014-03-29 18:56:51.664 2048[32890:70b] Finished load of: file:///Users/julienbordellier/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3C7B6F3A-A033-429A-A42B-A9E237F26377/2048.app/www/index.html
+Terminating in response to SpringBoard's termination.
